@@ -1,0 +1,50 @@
+.todo{
+    position:relative; 
+    top:100px;
+    height:100px; 
+    width:500px;
+    border: 5px solid grey;
+    margin-left:auto; 
+    margin-right:auto;
+    border-radius: 25px;
+    margin-bottom:10px;
+    background-color: aliceblue;
+    box-shadow: 5px 10px #888888;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.todo{
+
+
+    color:grey; 
+    font-weight: bold;
+}
+#add{
+    background: #91a4b4;
+     color: #fff;
+    border: 1px solid #eee;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    }
+#add:hover{
+        background-color: green;
+    }
+    form{
+        text-align:center;
+        padding-top: 30px;
+       
+      }
+
+      .header{
+        position:fixed; 
+        text-align: center;
+        background-color:aliceblue;
+        color:grey;
+        width:100%;
+        z-index: 2;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    

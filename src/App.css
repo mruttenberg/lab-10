@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  position:relative;
+  top:0px;
+  text-align: center;
+  background-color:aliceblue;
+  color:grey;
+  width:100%;
+  z-index: 2;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0px;
+
+}
