@@ -25,3 +25,16 @@
  ul{
     line-height: 5;
 }
+
+.button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.button:hover{
+    background-color: red;
+}
+.button{
+    margin-left:10px;
+}

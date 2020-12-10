@@ -47,4 +47,15 @@
         font-family: 'Montserrat', sans-serif;
     
     }
+
+    #addlist{
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid grey;
+        
+      }
+    
+    #addlist:focus{
+        background-color:gray;
+    }
     

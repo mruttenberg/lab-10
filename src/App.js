@@ -8,7 +8,7 @@ import Todo from './Todo';
 class App extends Component {
   render(){
     return(
-      <section id="list">
+      <section id="hey">
          { <NewTodo/> }
         { <Todo/> }
        
