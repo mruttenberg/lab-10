@@ -6,11 +6,18 @@ import Todo from './Todo';
 
 
 class App extends Component {
+  constructor(props){
+    super(props); 
+    this.state = {
+      todos: [],
+      somethingElse: ''
+    }
+  }
   render(){
     return(
       <section id="hey">
          { <NewTodo/> }
-        { <Todo/> }
+        { <Todo id="123" text="sample"/> }
        
       
 <div id="todo">

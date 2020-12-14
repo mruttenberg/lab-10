@@ -2,8 +2,13 @@ import React, { Component } from 'react';
 import './NewTodo.css';
 
 class NewTodo extends Component {
+  constructor() {
+    super()
+    // stuff here
+  }
     render(){
   return (
+   
     <div class="todo">
     <form> 
         Input your todo item
